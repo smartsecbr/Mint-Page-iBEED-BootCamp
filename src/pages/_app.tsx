@@ -10,7 +10,7 @@ export default function App({
 }: AppProps) {
    return (
       <ThirdwebProvider
-        activeChain={ Mumbai }
+        activeChain={ Goerli }
         autoConnect={true}>
         <ToastContainer autoClose={3000} />
         <Component {...pageProps}/>
